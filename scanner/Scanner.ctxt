@@ -1,0 +1,46 @@
+#BlueJ class context
+comment0.target=Scanner
+comment0.text=\n\ Scanner\ is\ a\ simple\ scanner\ for\ Compilers\ and\ Interpreters\ (2014-2015)\ lab\ exercise\ 1\n\ @author\ Leo\ tuckey\n\ @version\ January\ 13,\ 2022\n\ \ \n\ Usage\:\n\ This\ object\ scans\ inputs\ to\ verify\ that\ the\ tokens\ are\ regular\ expressions\n\n
+comment1.params=inStream
+comment1.target=Scanner(java.io.InputStream)
+comment1.text=\n\ Scanner\ constructor\ for\ construction\ of\ a\ scanner\ that\ \n\ uses\ an\ InputStream\ object\ for\ input.\ \ \n\ Usage\:\ \n\ FileInputStream\ inStream\ \=\ new\ FileInputStream(new\ File(<file\ name>);\n\ Scanner\ lex\ \=\ new\ Scanner(inStream);\n\ @param\ inStream\ the\ input\ stream\ to\ use\n
+comment10.params=
+comment10.target=java.lang.String\ scanNumber()
+comment10.text=\n\ Scans\ a\ string\ and\ adds\ the\ characters\ to\ a\ string\ as\ long\ as\ all\ \n\ the\ characters\ are\ digits.\n\ \n\ @return\ the\ lexeme\n\ @throws\ ScanErrorException\ if\ there\ is\ an\ error\ while\ scanning\n\ \n
+comment11.params=
+comment11.target=java.lang.String\ scanIdentifier()
+comment11.text=\n\ Scans\ a\ string\ and\ adds\ the\ characters\ to\ a\ string\ as\ long\ as\ all\ \n\ the\ characters\ are\ letters\ or\ digits.\n\ \n\ @return\ the\ lexeme\n\ @throws\ ScanErrorException\ if\ there\ is\ an\ error\ while\ scanning\n
+comment12.params=
+comment12.target=java.lang.String\ scanOperand()
+comment12.text=\n\ Scans\ a\ string\ and\ adds\ the\ characters\ to\ a\ string\ as\ long\ as\ all\ \n\ the\ characters\ are\ operands.\n\ \n\ @return\ the\ lexeme\n\ @throws\ ScanErrorException\ if\ there\ is\ an\ error\ while\ scanning\n
+comment13.params=
+comment13.target=java.lang.String\ nextToken()
+comment13.text=\n\ Method\:\ nextToken\n\ Scans\ the\ current\ token\n\ @return\ the\ scanned\ lexeme\n\ @throws\ ScanErrorException\ if\ there\ is\ an\ error\ while\ scanning\n
+comment14.params=
+comment14.target=java.lang.String\ nextTokenHelper()
+comment14.text=\n\ Method\:\ nextToken\n\ Scans\ the\ current\ token\n\ @return\ the\ scanned\ lexeme\n\ @throws\ ScanErrorException\ if\ there\ is\ an\ error\ while\ scanning\n
+comment2.params=inString
+comment2.target=Scanner(java.lang.String)
+comment2.text=\n\ Scanner\ constructor\ for\ constructing\ a\ scanner\ that\ \n\ scans\ a\ given\ input\ string.\ \ It\ sets\ the\ end-of-file\ flag\ an\ then\ reads\n\ the\ first\ character\ of\ the\ input\ string\ into\ the\ instance\ field\ currentChar.\n\ Usage\:\ Scanner\ lex\ \=\ new\ Scanner(input_string);\n\ @param\ inString\ the\ string\ to\ scan\n
+comment3.params=
+comment3.target=void\ getNextChar()
+comment3.text=\n\ Method\:\ getNextChar\n\ Changes\ the\ value\ of\ the\ current\ character\ to\ the\ next\ one.\n
+comment4.params=expected
+comment4.target=void\ eat(char)
+comment4.text=\n\ Method\:\ eat\n\ Changes\ current\ character\ to\ next\ character\ if\ parameter\ is\ the\ current\ \n\ character.\n\ \n\ @param\ expected\ the\ expected\ character\ that\ will\ be\ tested\ to\ see\n\ if\ it\ is\ the\ same\ as\ the\ current\ character.\n\ @throws\ ScanErrorException\ if\ there\ is\ an\ error\ while\ scanning\n
+comment5.params=input
+comment5.target=boolean\ isDigit(char)
+comment5.text=\n\ Determines\ if\ the\ inputted\ character\ is\ a\ digit\n\ \n\ @param\ input\ the\ inputted\ character\ \n\ @return\ true\ if\ input\ is\ a\ digit;\ otherwise,\n\ false\n
+comment6.params=input
+comment6.target=boolean\ isLetter(char)
+comment6.text=\n\ Determines\ if\ the\ inputted\ character\ is\ a\ letter\n\ \n\ @param\ input\ the\ inputted\ character\ \n\ @return\ true\ if\ input\ is\ a\ letter;\ otherwise,\n\ false\n
+comment7.params=input
+comment7.target=boolean\ isWhiteSpace(char)
+comment7.text=\n\ Determines\ if\ the\ inputted\ character\ is\ a\ white\ space\n\ \n\ @param\ input\ the\ inputted\ character\ \n\ @return\ true\ if\ input\ is\ a\ white\ space;\ otherwise,\n\ false\n
+comment8.params=input
+comment8.target=boolean\ isOperand(char)
+comment8.text=\n\ Determines\ if\ the\ inputted\ character\ is\ an\ operand\n\ \n\ @param\ input\ the\ inputted\ character\ \n\ @return\ true\ if\ input\ is\ an\ operand;\ otherwise,\n\ false\n
+comment9.params=
+comment9.target=boolean\ hasNext()
+comment9.text=\n\ Method\:\ hasNext\n\ Determines\ if\ there\ is\ a\ next\ token\ and\ not\ at\ end\ of\ file.\n\ @return\ true\ if\ not\ at\ end\ of\ the\ file;\ otherwise,\n\ false\n
+numComments=15
