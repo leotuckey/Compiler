@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BinOp
+comment0.text=\n\ BinOp\ has\ arithmetic\ and\ conditional\ operations\n\n\ @author\ Leo\ Tuckey\n\ @version\ March\ 25,\ 2022\n
+comment1.params=val1\ val2\ operator
+comment1.target=BinOp(Expression,\ Expression,\ java.lang.String)
+comment1.text=\n\ Makes\ a\ BinOp\ object\ that\ will\ evaluate\n\ \n\ @param\ val1\ first\ expression\n\ @param\ val2\ second\ expression\n\ @param\ operator\ given\ operator\n
+comment2.params=val1\ operator\ val2
+comment2.target=BinOp(Expression,\ java.lang.String,\ Expression)
+comment2.text=\n\ Makes\ a\ BinOp\ object\ that\ will\ evaluate\n\ \n\ @param\ val1\ first\ expression\n\ @param\ operator\ given\ operator\n\ @param\ val2\ second\ expression\n
+comment3.params=env
+comment3.target=java.lang.Object\ eval(environment.Environment)
+comment3.text=\n\ Evaluates\ a\ BinOp\n\n\ @param\ env\ the\ environment\ which\ will\ be\ the\ source\ of\ variables\n\ @return\ the\ evaluated\ result\n
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Number
+comment0.text=\n\ Converts\ an\ integer\ into\ a\ treenode\n\n\ @author\ Leo\ Tuckey\n\ @version\ March\ 25,\ 2022\n
+comment1.params=num
+comment1.target=Number(int)
+comment1.text=\n\ Creates\ a\ number\ object\ that\ represents\ the\ given\ integer\n\ \n\ @param\ num\ the\ given\ integer\n
+comment2.params=env
+comment2.target=java.lang.Object\ eval(environment.Environment)
+comment2.text=\n\ Evaluates\ the\ integer\n\n\ @param\ env\ the\ enviornment\ that\ will\ be\ the\ source\ of\ variables\n\ @return\ the\ number\ object\n
+numComments=3

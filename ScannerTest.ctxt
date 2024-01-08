@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ScannerTest
+comment0.text=\n\ Tests\ nextToken\ method\ on\ text\ file.\ As\ long\ as\ it's\ not\ at\n\ end\ of\ file,\ prints\ the\ current\ lexeme.\n\ \n\ @author\ \ Leo\ Tuckey\n\n\ @version\ February\ 1,\ 2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Tests\ nextToken\ method\ on\ text\ file.\ As\ long\ as\ it's\ not\ at\n\ end\ of\ file,\ prints\ the\ current\ lexeme.\n\ \n\ @param\ args\ arguments\ from\ the\ command\ line\n
+numComments=2

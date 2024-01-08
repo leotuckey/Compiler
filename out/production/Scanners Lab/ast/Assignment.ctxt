@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Assignment
+comment0.text=\n\ Puts\ a\ variable\ in\ an\ environment\n\n\ @author\ Leo\ Tuckey\n\ @version\ March\ 25,\ 2022\n
+comment1.params=varName\ value
+comment1.target=Assignment(java.lang.String,\ Expression)
+comment1.text=\n\ Creates\ an\ assignment\ object\ that\ will\ add\ to\ the\ environment\n\n\ @param\ varName\ name\ of\ the\ variable\n\ @param\ value\ the\ value\ of\ the\ variable\n
+comment2.params=
+comment2.target=java.lang.String\ getVarName()
+comment2.text=\n\ Gets\ the\ name\ of\ the\ variable\n\n\ @return\ the\ name\ of\ the\ variable\n
+comment3.params=varName
+comment3.target=void\ setVarName(java.lang.String)
+comment3.text=\n\ Sets\ the\ variable\ name\n\n\ @param\ varName\ the\ name\ of\ the\ variable\n
+comment4.params=
+comment4.target=java.lang.Object\ getValue()
+comment4.text=\n\ Gets\ the\ value\ of\ the\ variable\n\n\ @return\ the\ value\ of\ the\ variable\n
+comment5.params=value
+comment5.target=void\ setValue(Expression)
+comment5.text=\n\ Sets\ the\ value\ of\ the\ variable\n\n\ @param\ value\ the\ value\ of\ the\ variable\n
+comment6.params=env
+comment6.target=void\ exec(environment.Environment)
+comment6.text=\n\ Adds\ to\ the\ environment\n\n\ @param\ env\ the\ enviornment\ that\ will\ be\ the\ source\ of\ variables\n
+numComments=7
