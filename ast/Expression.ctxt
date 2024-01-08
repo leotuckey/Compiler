@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Expression
+comment0.text=\n\ Abstract\ class\ Expression\ that\ will\ be\ extended\ by\ other\ classes\n\n\ @author\ Leo\ Tuckey\n\ @version\ March\ 25,\ 2022\n
+comment1.params=env
+comment1.target=java.lang.Object\ eval(environment.Environment)
+comment1.text=\n\ Evaluates\ the\ Expression\n\n\ @param\ env\ the\ enviornment\ that\ will\ be\ the\ source\ of\ variables\n\ \n\ @return\ the\ evaluated\ value\n
+numComments=2

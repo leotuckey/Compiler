@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Variable
+comment0.text=\n\ Makes\ a\ variable\ with\ a\ name\n\n\ @author\ Leo\ Tuckey\n\ @version\ March\ 25,\ 2022\n
+comment1.params=name
+comment1.target=Variable(java.lang.String)
+comment1.text=\n\ Makes\ a\ variable\ object\ with\ the\ given\ name\n\ \n\ @param\ name\ the\ String\ that\ will\ be\ the\ name\ of\ the\ variable\n
+comment2.params=env
+comment2.target=java.lang.Object\ eval(environment.Environment)
+comment2.text=\n\ Evaluates\ the\ variable\ with\ the\ given\ value.\n\n\ @param\ env\ the\ enviornment\ that\ will\ be\ the\ source\ of\ variables\n\ @return\ the\ evaluation\n
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Statement
+comment0.text=\n\ Statement\ class\ is\ a\ statement\ in\ pascal\n\n\ @author\ Leo\ Tuckey\n\ @version\ March\ 25,\ 2022\n
+comment1.params=env
+comment1.target=void\ exec(environment.Environment)
+comment1.text=\n\ Executes\ the\ statement\n\n\ @param\ env\ the\ environment\ that\ will\ be\ the\ source\ of\ variables\n
+numComments=2

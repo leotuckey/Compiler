@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=If
+comment0.text=\n\ If\ the\ condition\ is\ true,\ executes\ a\ statement\n\n\ @author\ Leo\ Tuckey\n\ @version\ March\ 25,\ 2022\n
+comment1.params=condition\ b
+comment1.target=If(Expression,\ Block)
+comment1.text=\n\ Makes\ an\ if\ object\ with\ the\ given\ condition\ and\ block\n\ \n\ @param\ condition\ the\ given\ condition\n\ @param\ b\ the\ given\ block\n
+comment2.params=env
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ If\ the\ condition\ is\ true,\ executes\ a\ statement\n\n\ @param\ env\ the\ environment\ that\ will\ the\ be\ the\ source\ of\ variables\n
+numComments=3
